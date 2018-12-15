@@ -1,0 +1,605 @@
+{% load static %}
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<!-- Document Meta
+============================================= -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--IE Compatibility Meta-->
+<meta name="author" content="zytheme" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Html5 Construction Landing Page">
+<link href="{% static "main_app/images/favicon/favicon.ico" %}" rel="icon">
+
+<!-- Fonts
+============================================= -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300i,400,400i,500,600,700,800%7CLora:400,400i,700,700i" rel="stylesheet">
+
+<!-- Stylesheets
+============================================= -->
+<link href="{% static "main_app/css/external.css" %}" rel="stylesheet">
+<link href="{% static "main_app/css/cons.css" %}" rel="stylesheet">
+<link href="{% static "main_app/css/bootstrap.min.css" %}" rel="stylesheet">
+<link href="{% static "main_app/css/style.css" %}" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+<script src="{% static "main_app/js/html5shiv.js" %}"></script>
+<script src="{% static "main_app/js/respond.min.js" %}"></script>
+<![endif]-->
+
+<!-- Document Title
+============================================= -->
+<title>Сантехнические работы</title>
+</head>
+
+<body class="body-scroll">
+<!-- Document Wrapper
+============================================= -->
+<div id="wrapper" class="wrapper clearfix">
+
+<!-- Header
+============================================= -->
+<header id="navbar-spy" class="header header-1 header-transparent header-fixed">
+
+    <nav id="primary-menu" class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Навигация</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+
+                <a class="logo" href="/">
+        <img class="logo-dark" src="{% static "main_app/images/logo/sanitary2.png" %}" alt="Logo" >
+        <img class="logo-light" src="{% static "main_app/images/logo/sanitary2.png" %}" alt="Logo" >
+        </a>
+            </div>
+            <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left nav-split nav-pos-right">
+                    <li class="active"><a data-scroll="scrollTo" href="#hero">Главная</a>
+                    </li>
+                    <li><a data-scroll="scrollTo" href="#feature">Услуги</a>
+                    </li>
+                    <li><a data-scroll="scrollTo" href="#portfolio">Работы</a>
+                    </li>
+                    <li><a data-scroll="scrollTo" href="#skills">Наш опыт</a>
+                    </li>
+                    <li><a data-scroll="scrollTo" href="#testimonials">Отзывы</a>
+                    </li>
+                    <li><a data-scroll="scrollTo" href="#call-back">Call-back</a>
+                    </li>
+                    <li><a data-scroll="scrollTo" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+</header>
+
+<!-- Hero #12
+============================================= -->
+<section id="hero" class="section hero hero-12 text-center bg-overlay bg-overlay-dark bg-parallax fullscreen">
+    <div class="bg-section">
+        <img src="{% static "main_app/images/hero/Vodosnabzhenie.png" %}" alt="Background" />
+    </div>
+    <div class="pos-vertical-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="hero--content">
+                        <h1 class="hero--headline">Мы делаем комфорт</h1>
+                        <p class="hero--bio">Сделай шаг навстречу будущему вместе с нами</p>
+                        <a href="#feature" data-scroll="scrollTo" class="btn btn--primary btn--rounded">Начнем?<br> </a>
+                    </div>
+                </div>
+                <!-- .col-md-10 end -->
+            </div>
+            <!-- .row end -->
+        </div>
+    </div>
+
+    <!-- .container end -->
+</section>
+<!-- #hero12 end -->
+<!-- Feature #1 
+============================================= -->
+<section id="feature" class="section feature feature-1 bg-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+                <div class="heading mb-70">
+                    <h2 class="heading--title">Чем мы занимаемся</h2>
+                    <p class="heading--subtitle">У нас более 10 лет опыта в сфере сантехники и водопровода. Обслуживаем как частных лиц так и большие компании. Наши клиенты- это Dream Town, Auchan|Retail, Metro, Fozzi Group и многие другие.
+
+                </div>
+            </div>
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <!-- Panel #1 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="feature-panel">
+                    <div class="feature--icon">
+                        <i class="flaticon-wrench"></i>
+                    </div>
+                    <div class="feature--content">
+                        <h3>Ремонт и установка сантехники</h3>
+                        <p>Никаких стереотипов о сантехниках. Только крутые специалисты. Быстро, качественно и недорого. </p>
+                    </div>
+                </div>
+                <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #2 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="feature-panel">
+                    <div class="feature--icon">
+                        <i class="flaticon-valve"></i>
+                    </div>
+                    <div class="feature--content">
+                        <h3>Монтаж водоснабжения и канализации</h3>
+                        <p>Работы проводятся профессионалами своего дела и только с качественными материалами. </p>
+                    </div>
+                </div>
+                <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #3 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="feature-panel">
+                    <div class="feature--icon">
+                        <i class="flaticon-drawing"></i>
+                    </div>
+                    <div class="feature--content">
+                        <h3>Проэктирование</h3>
+                        <p>Наши инженера готовы создать профессиональный проэкт в кратчайшие сроки. </p>
+                    </div>
+                </div>
+                <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #4 -->
+            <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="feature-panel">
+                    <div class="feature--icon">
+                        <i class="flaticon-boiler"></i>
+                    </div>
+                    <div class="feature--content">
+                        <h3>Установка котлов и бойлеров</h3>
+                        <p>Высококачественная установка нагревательных приборов. Горячая вода у Вас будет сразу после установки</p>
+                    </div>
+                </div>
+                <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #feature  end -->
+
+<!-- Portfolio #1
+============================================= -->
+<section id="portfolio" class="section portfolio portfolio-grid portfolio-2 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+                <div class="heading text-center mb-70">
+                    <h2 class="heading--title">Наши работы</h2>
+                    <p class="heading--desc">Несколько примеров выполненых заказов.</p>
+                </div>
+            </div>
+            <!-- .col-md-6 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+			<!-- Projects Filter
+			============================================= -->
+			<div class="col-xs-12 col-sm-12 col-md-12 portfolio-filter">
+				<ul class="list-inline">
+					<li><a class="active-filter" href="#" data-filter="*">Все</a></li>
+					<li><a href="#" data-filter=".filter-building">Водоснабжение</a></li>
+					<li><a href="#" data-filter=".filter-construction">Проекты</a></li>
+					<li><a href="#" data-filter=".filter-planning">Другое</a></li>
+				</ul>
+			</div>
+			<!-- .projects-filter end --> 
+		</div>	
+		<!-- .row end --> 
+        <div id="portfolio-all" class="row">
+            <!-- Portfolio Item #1 -->
+            <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building">
+                    <div class="portfolio--img">
+                        <img src="{% static "main_app/images/portfolio/constructions/viber image.jpg" %}" alt="portfolio image" />
+                        <div class="portfolio--hover">
+                            <div class="portfolio--meta">
+                                <div class="portfolio--zoom"><a class="img-gallery-item" href="{% static "main_app/images/portfolio/constructions/full/new.jpg" %}"></a></div>
+								<h6><a href="#">Водоснабжение</a></h6>
+                            </div>
+                        </div>
+                        <!-- .portfolio-hover end -->
+                    </div>
+                    <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #2 -->
+            <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction">
+                    <div class="portfolio--img">
+                        <img src="{% static "main_app/images/portfolio/constructions/viber image2.jpg" %}" alt="portfolio image" />
+                        <div class="portfolio--hover">
+                            <div class="portfolio--meta">
+                                <div class="portfolio--zoom"><a class="img-gallery-item" href="{% static "main_app/images/portfolio/constructions/full/new2.jpg" %}"></a></div>
+								<h6><a href="#">Проект</a></h6>
+                            </div>
+                        </div>
+                        <!-- .portfolio-hover end -->
+                    </div>
+                    <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #3 -->
+            <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-planning">
+                    <div class="portfolio--img">
+                        <img src="{% static "main_app/images/portfolio/constructions/viber image5.jpg" %}" alt="portfolio image" />
+                        <div class="portfolio--hover">
+                            <div class="portfolio--meta">
+                                <div class="portfolio--zoom"><a class="img-gallery-item" href="{% static "main_app/images/portfolio/constructions/full/new5.jpg" %}"></a></div>
+								<h6><a href="#">Котлы</a></h6>
+                            </div>
+                        </div>
+                        <!-- .portfolio-hover end -->
+                    </div>
+                    <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #4 -->
+            <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-construction">
+                    <div class="portfolio--img">
+                        <img src="{% static "main_app/images/portfolio/constructions/viber image3.jpg" %}" alt="portfolio image" />
+                        <div class="portfolio--hover">
+                            <div class="portfolio--meta">
+                                <div class="portfolio--zoom"><a class="img-gallery-item" href="{% static "main_app/images/portfolio/constructions/full/new3.jpg" %}"></a></div>
+                                 <h6>Проект</h6>
+                            </div>
+                        </div>
+                        <!-- .portfolio-hover end -->
+                    </div>
+                    <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #5 -->
+            <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-building">
+                    <div class="portfolio--img">
+                        <img src="{% static "main_app/images/portfolio/constructions/viber image4.jpg" %}" alt="portfolio image" />
+                        <div class="portfolio--hover">
+                            <div class="portfolio--meta">
+                                <div class="portfolio--zoom"><a class="img-gallery-item" href="{% static "main_app/images/portfolio/constructions/full/new4.jpg" %}"></a></div>
+								<h6><a href="#">Водоснабжение</a></h6>
+                            </div>
+                        </div>
+                        <!-- .portfolio-hover end -->
+                    </div>
+                    <!-- .portfolio-img end -->
+            </div>
+            <!-- .portfolio-item end -->
+
+            <!-- Portfolio Item #6 -->
+            <div class="col-xs-12 col-sm-4 col-md-4 portfolio-item filter-planning">
+                    <div class="portfolio--img">
+                        <img src="{% static "main_app/images/portfolio/constructions/viber image6.jpg" %}" alt="portfolio image" />
+                        <div class="portfolio--hover">
+                            <div class="portfolio--meta">
+                                <div class="portfolio--zoom"><a class="img-gallery-item" href="{% static "main_app/images/portfolio/constructions/full/new6.jpg" %}"></a></div>
+								<h6><a href="#">Котлы</a></h6>
+                            </div>
+                        </div>
+                        <!-- .portfolio-hover end -->
+                    </div>
+                    <!-- .portfolio-img end -->
+            </div>
+             <!-- .portfolio-item end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #portfolio1 end -->
+
+ <!-- skills
+============================================= -->
+<section id="skills" class="section skills skills-1 bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-5">
+                 <div class="heading mb-30">
+                    <h2 class="heading--title">Итоги нашей работы</h2>
+                    <p class="heading--desc">Работа с сантехникой – дело тонкое. Несмотря на проверенное качество
+                        оборудования и множество инноваций в этой сфере,
+                        поломки все равно случаются. Так что услуги сантехника всегда актуальны.</p>
+                </div>
+            </div>
+            <!-- .col-md-6 end -->
+            <div class="col-xs-12 col-sm-6 col-md-6 col-md-offset-1">
+ 				<!-- Progressbar #1 -->
+				<div class="progressbar">
+					<div class="progress-title">
+						<span class="title">Довольные клиенты</span>
+						<span class="value">95%</span>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+						</div>
+					</div>
+				</div><!-- .progressbar end -->
+				
+				<!-- Progressbar #2 -->
+				<div class="progressbar">
+					<div class="progress-title">
+						<span class="title">Завершенные обьекты</span>
+						<span class="value">90%</span>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+						</div>
+					</div>
+				</div><!-- .progressbar end -->
+				
+				<!-- Progressbar #3 -->
+				<div class="progressbar">
+					<div class="progress-title">
+						<span class="title">Наше настроение</span>
+						<span class="value">99%</span>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
+						</div>
+					</div>
+				</div><!-- .progressbar end -->				
+				
+				<!-- Progressbar #3 -->
+				<div class="progressbar">
+					<div class="progress-title">
+						<span class="title">Увеличение количества клиентов в этом году</span>
+						<span class="value">40%</span>
+					</div>
+					<div class="progress">
+						<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+						</div>
+					</div>
+				</div><!-- .progressbar end -->
+            </div>
+            <!-- .col-md-6 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #skills end -->
+ 
+<!-- cta2 
+============================================= -->
+<section id="cta2" class="section cta cta-2 bg-theme">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="pull-left text-left">
+                    <h3>Сделай заказ через сайт и получи гарантированую скидку</h3>
+                </div>
+                <div class="pull-right text-right">
+                    <a  data-scroll="scrollTo" class="btn btn--white btn--bordered btn--rounded" href="#call-back">Получить скидку</a>
+                </div>
+            </div>
+            <!-- .col-md-8 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+
+<!-- Testimonials #5
+============================================= -->
+<section id="testimonials" class="section testimonials testimonials-5 bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+                <div class="heading text-center mb-70">
+                    <h2 class="heading--title">Нас рекомендуют.</h2>
+                    <p class="heading--desc">Все отзывы настоящие. Просим Вас также оставлять комментарии.</p>
+                </div>
+            </div>
+            <!-- .col-md-6 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <!-- Testimonial #1 -->
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="testimonial-panel">
+                    <div class="testimonial--meta-img">
+                        <img src="{% static "main_app/images/testimonials/1.jpg" %}" alt="author image">
+                    </div>
+                    <div class="testimonial--body">
+                        <div class="testimonial--content">
+                            <p>“Очень качественная работа. Ребята сделали работу очень быстро и недорого. Я рекомендую всем эту компанию.” </p>
+                        </div>
+                        <div class="testimonial--meta">
+                            <h4>Инна Ковальчук</h4>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .col-md-6 end -->
+            <!-- Testimonial #2 -->    
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="testimonial-panel">
+                    <div class="testimonial--meta-img">
+                        <img src="{% static "main_app/images/testimonials/4.jpg" %}" alt="author image">
+                    </div>
+                    <div class="testimonial--body">
+                        <div class="testimonial--content">
+                            <p id="call-back">“SanSistems помогли мне ускорить запуск моего предприятия. Я очень доволен их работой :-) ”</p>
+                        </div>
+                        <div class="testimonial--meta">
+                            <h4>Иван Куренко</h4>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .col-md-6 end -->
+         </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #testimonials5 end -->
+
+<!--Contact Area Starts-->
+
+    <div class="contact-area section-padding" style="margin-top: 25px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center">
+                        <h2>Оставь свое сообщение</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 box-contact-form">
+
+                    <form id="contact-form" method="post" action="">{% csrf_token %}
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group wow fadeInDown" data-wow-delay="0.2s">
+                                        <input id="form_name" type="text" name="{{ form.name.name }}" class="form-control" placeholder="Ваше имя *" required="required" data-error="Fullname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group wow fadeInDown" data-wow-delay="0.4s">
+                                        <input id="form_phone" type="text" name="{{ form.phone.name }}" class="form-control" placeholder="Ваш телефон *" required="required" data-error="Valid number is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group wow fadeInUp" data-wow-delay="0.6s">
+                                        <textarea id="form_message" name="{{ form.message.name }}" class="form-control" placeholder="Сообщение *" rows="4" required="required" data-error="Leave a message for me"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                   <center><button type="submit" class="btn btn-warning">Перезвонить</button></center>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--Contact Area Ends-->
+
+
+<!-- Footer #9
+============================================= -->
+<footer id="contact" class="footer footer-5 footer-8 footer-9 bg-white text-center-xs pt-0 pb-0">
+    <div class="footer-widget">
+        <div class="container">
+            <div class="row widget--boxes text-center">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="widget--info-box">
+                        <i class="ti-home"></i>
+                        <h4>Адрес</h4>
+                        <p>Киев, Большая Васильковская 45б,<br>street, Украина, 04123. </p>
+                    </div>
+                    <!-- .widget-info-box end -->
+                </div>
+                <!-- .col-md-4 end -->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="widget--info-box">
+                        <i class="ti-mobile"></i>
+                        <h4>Телефон</h4>
+                        <p>Телефон: (044) 491-7-11</p>
+                    </div>
+                    <!-- .widget-info-box end -->
+                </div>
+                <!-- .col-md-4 end -->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="widget--info-box">
+                        <i class="ti-email"></i>
+                        <h4>Email</h4>
+                        <p>extezi629@gmail.com</p>
+                        <p>Facebook: Roma Stepakov</p>
+                    </div>
+                    <!-- .widget-info-box end -->
+                </div>
+                <!-- .col-md-4 end -->
+            </div>
+            <!-- .row end -->
+        </div>
+        <!-- .container end -->
+    </div>
+    <!-- .footer-widget end -->
+    <div class="footer-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="widget--copyright">
+                        <span>&copy; SanSistems 2018, Все права защищены.</span>
+                    </div>
+                </div>
+                <!-- .col-md-6 end -->
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="widget--social text-right text-center-xs">
+                        <a class="facebook" href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a class="instagram" href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- .col-md-6 end -->
+            </div>
+            <!-- .row end -->
+        </div>
+        <!-- .container end -->
+    </div>
+    <!-- .footer bar end -->
+</footer>
+<!-- #footer9 end -->
+
+</div>
+<!-- #wrapper end -->
+
+<!-- Footer Scripts
+============================================= -->
+<script src="{% static "main_app/js/jquery-2.2.4.min.js" %}"></script>
+<script src="{% static "main_app/js/plugins.js" %}"></script>
+<script src="{% static "main_app/js/functions.js" %}"></script>
+</body>
+
+</html>
